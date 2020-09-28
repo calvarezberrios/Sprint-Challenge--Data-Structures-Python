@@ -21,10 +21,6 @@ class RingBuffer:
             self.oldest = self.data[oldest_index]
             
 
-
-                
-            
-
     def get(self):
         no_none = []
         for item in self.data:
